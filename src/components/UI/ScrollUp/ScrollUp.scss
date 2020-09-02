@@ -1,0 +1,35 @@
+.scroll-up {
+    position: fixed;
+    bottom: 6rem;
+    right: 7rem;
+    z-index: 900;
+
+    span {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5rem;
+        height: 5rem;
+        padding-bottom: .5rem;
+        background-color: var(--color-red);
+        border-radius: 50%;
+        opacity: .4;
+        cursor: pointer;
+        transition: opacity .2s;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:focus {
+            outline: none;
+        }
+
+        .fas {
+            text-align: center;
+            font-size: 3.4rem;
+            color: var(--color-white);
+
+        }
+    }
+}

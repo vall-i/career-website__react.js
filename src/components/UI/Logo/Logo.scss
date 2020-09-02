@@ -1,0 +1,15 @@
+.logo {
+    display: flex;
+    align-items: center;
+    height: 1.6rem;
+
+    &--large {
+        height: 2rem;
+    }
+
+    img {
+        display: block;
+        height: 100%;
+        margin: 0 .7rem;
+    }
+}

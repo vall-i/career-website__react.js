@@ -1,0 +1,59 @@
+.intro {
+    display: flex;
+    align-items: center;
+    height: 42.8rem;
+    margin-bottom: 10rem;
+    background-color: #211F1B;
+    // background-image: url('../../..//assets/img/intro-bg-lg.jpg') no-repeat;
+    // background-size: cover;
+
+    &__inner {
+        width: 100%;
+        max-width: 54.8rem;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__logo {
+        display: inline-block;
+        margin-bottom: 2.5rem;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        color: var(--color-white);
+
+        &>* {
+            display: block;
+        }
+
+        &--main {
+            margin-bottom: 2rem;
+            font-size: 3.2rem;
+            font-weight: 700;
+        }
+
+        &--sub {
+            font-size: 2.5rem;
+            font-weight: 400;
+        }
+    }
+
+    &__powered {
+        color: var(--color-white);
+
+        & > span {
+            margin: 0 .3rem;
+        }
+
+        &--main {
+            font-size: 1.9rem;
+            font-weight: 700;
+        }
+
+        &--sub {
+            font-size: 1.4rem;
+        }
+       
+    }
+}

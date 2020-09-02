@@ -1,0 +1,24 @@
+.employees {
+    margin: 12rem 0;
+
+    &__title {
+        margin-bottom: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -1.5rem 2rem;
+    }
+
+    &__wrap-inner {
+        flex: 0 0 33.33333%;
+        padding: 0 1.5rem;
+        margin-bottom: 2rem;
+    }
+}

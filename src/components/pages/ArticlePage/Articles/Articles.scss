@@ -1,0 +1,22 @@
+.articles {
+    flex: 0 0 32%;
+
+    &__title {
+        margin-bottom: 2.5rem;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+        
+        .card {
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

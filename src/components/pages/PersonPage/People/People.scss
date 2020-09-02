@@ -1,0 +1,20 @@
+.people {
+    flex: 0 0 32%;
+
+    &__title {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__wrap {
+        display: flex;
+        flex-direction: column;
+
+        .person-card {
+            margin: 0 0 4rem;
+        }
+    }
+}

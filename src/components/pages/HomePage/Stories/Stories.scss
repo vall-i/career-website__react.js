@@ -1,0 +1,26 @@
+.stories {
+    margin-bottom: 4rem;
+
+    &__title {
+        margin-bottom: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__wrap {
+        display: flex;
+        margin: 0 -2rem 0;
+
+        .story-card {
+            margin-right: 2rem;
+            margin-left: 2rem;
+        }
+    }
+
+    & + .cards-block {
+        margin-bottom: 4rem;
+    }
+}

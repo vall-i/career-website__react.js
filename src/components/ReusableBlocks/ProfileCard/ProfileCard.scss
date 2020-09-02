@@ -1,0 +1,42 @@
+.profile-card {
+    display: flex;
+    margin: 0 2.4rem;
+    box-shadow: var(--shadow);
+
+    &__box-photo {
+        flex: 0 0 50%;
+        overflow: hidden;
+    }
+
+    &__photo {
+        display: block;
+        width: 100%;
+    }
+
+    &__box-content {
+        flex: 1;
+        padding: 3rem 3rem 2rem 4rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__subtitle {
+        display: block;
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
+    }
+
+    &__text {
+        margin-bottom: 5.4rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+   
+}

@@ -1,0 +1,60 @@
+:root {
+  --color-primary-black: #333;
+  --color-heading-grey: #62686f;
+
+  --color-grey-light-1: #cbd1d7;
+  --color-grey-light-2: #ececec;
+  --color-grey-light-3: #d8d8d8;
+  --color-grey-light-4: #9b9b9b;
+  --color-grey-light-5: #7c838a;
+
+  --color-red: #d61d22;
+  --color-red-light: #f0474c;
+
+  --color-white: #fff;
+
+  --color-shadow-black: #000;  
+
+  --shadow: 0 1.5rem 3.9rem rgba(0, 0, 0, .07);
+  --shadow-dark: 0 1rem 2rem rgba(0, 0, 0, .15);
+  --shadow-medium: 0 1.2rem 3.9rem rgba(0, 0, 0, .03);
+  --shadow-light: 0 .7rem 1.8rem rgba(0, 0, 0, .07);
+}
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Assistant', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1;
+  font-weight: 400;
+  color: var(--color-primary-black);
+  direction: rtl;
+  box-sizing: border-box;
+}
+
+
+.align-center {
+  text-align: center;
+}
+
+
+.margin-bottom {
+  margin-bottom: 12rem;
+}
+
+.margin-bottom-small {
+  margin-bottom: 4rem !important;
+}

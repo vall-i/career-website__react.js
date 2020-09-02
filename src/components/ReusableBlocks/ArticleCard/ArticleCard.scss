@@ -1,0 +1,31 @@
+.article-card {
+    font-size: 2rem;
+    
+    &:not(:last-child) {
+        margin-bottom: 4rem;
+    }
+
+    &:last-child {
+        margin-bottom: 7rem;
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        letter-spacing: .58px;
+        font-weight: 700;
+        color: var(--color-heading-grey);
+    }
+
+    &__text {
+        font-size: 2rem;
+        line-height: 2.6rem;
+        letter-spacing: .46px;
+    }
+
+    &__photo {
+        display: block;
+        width: 100%;
+        margin-top: 4rem;
+    }
+}

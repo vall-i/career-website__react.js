@@ -1,0 +1,90 @@
+.office-view {
+    position: relative;
+    margin-bottom: 7.8rem;
+
+    &__title {
+        margin-bottom: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    .slick-slider {
+        width: 100%;
+
+        .slick-slide {
+            div {
+                overflow: hidden;
+
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+
+        .slick-arrow {
+            display: none !important;
+        }
+
+        .slick-dots {
+            bottom: -3.8rem;
+
+            li {
+                width: .8rem;
+                height: 1.6rem;
+                margin: 0 .7rem;
+
+                button {
+                    width: 100%;
+                    height: 100%;
+                    padding: 0;
+
+                    &:before {
+                        display: block;
+                        width: 100%;
+                        height: 100%;
+                        font-size: .9rem;
+                        color: var(--color-grey-light-3);
+                        opacity: 1;
+                    }
+                }
+
+                &.slick-active {
+                    button {
+                        &:before {
+                            color: var(--color-red);
+                            opacity: 1;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__logo-box {
+        position: absolute;
+        right: 2%;
+        bottom: -7%;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 21%;
+        height: 19%;
+        background-color: var(--color-white);
+        border-radius: 5rem;
+        box-shadow: var(--shadow);
+
+        img {
+            display: block;
+            width: 55%;
+        }
+    }
+
+    &+.cards-block {
+        margin-bottom: 4rem;
+    }
+}

@@ -1,0 +1,50 @@
+.NavItem {
+    &:not(:last-child) {
+        margin-left: 3rem;
+    }
+
+    &__link {
+        &,
+        &:link,
+        &:visited {
+            font-size: 1.6rem;
+            font-weight: 700;
+            text-decoration: none;
+            color: var(--color-primary-black);
+
+            &:hover,
+            &:active,
+            &.active {
+                color: var(--color-red);
+            }
+        }
+    }
+
+    &__btn {
+        padding: 0 3.1rem;
+        background-color: var(--color-red);
+        font-family: inherit;
+        font-size: 1.6rem;
+        line-height: 3rem;
+        font-weight: 600;
+        color: var(--color-white);
+        border-radius: 5rem;
+        border: none;
+        box-shadow: var(--shadow-medium);
+        cursor: pointer;
+        transition: all .2s;
+
+        &:hover {
+            background-color: var(--color-red-light);
+        }
+
+        &:focus {
+            outline: none;
+        }
+        
+        &:active,
+        &.selected {
+            box-shadow: inset 0px 0px 10px #ad0107;
+        }
+    }
+}

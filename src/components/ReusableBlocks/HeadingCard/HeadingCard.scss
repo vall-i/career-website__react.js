@@ -1,0 +1,41 @@
+.heading-card {
+    display: flex;
+    margin: 10rem 0 8rem;
+    box-shadow: var(--shadow);
+
+    &__box-content {
+        flex: 1;
+        padding: 3.6rem 3rem 3.6rem 6.8rem;
+    }
+
+    &__title {
+        margin-bottom: 1rem;
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 4.8rem;
+        letter-spacing: 1.16px;
+        color: var(--color-heading-grey);
+    }
+
+    &__subtitle {
+        margin-bottom: 4rem;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--color-heading-grey);
+    }
+
+    &__quote {
+        font-size: 3.2rem;
+        line-height: 1.25;
+    }
+
+    &__box-photo {
+        flex: 0 0 52%; 
+        overflow: hidden;
+    }
+
+    &__photo {
+        display: block;
+        width: 100%;
+    }
+}

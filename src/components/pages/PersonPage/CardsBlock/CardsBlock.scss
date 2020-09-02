@@ -1,0 +1,22 @@
+.cards-block {
+    margin-bottom: 8rem;
+
+    &__title {
+        margin-bottom: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__wrap {
+        display: flex;
+        margin: 0 -2.5rem 0;
+
+        .card {
+            margin-right: 2.5rem;
+            margin-left: 2.5rem;
+        }
+    }
+}

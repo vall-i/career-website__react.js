@@ -1,0 +1,36 @@
+.overview {
+    margin-bottom: 4rem;
+
+    &__title {
+        margin-bottom: 4rem;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: .58px;
+        color: var(--color-heading-grey);
+    }
+
+    &__wrap {
+        display: flex;
+        margin: 0 -2rem 0;
+
+        .profile-card {
+            flex: 1;
+            margin: 0 2rem 4rem;
+        }
+    }
+
+    &__wrap-profile-card {
+        flex: 0 0 31%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: space-between;
+        margin: 0 2rem 4rem;
+
+        .person-card {
+            &:not(:last-child) {
+                margin-bottom: 5rem;
+            }
+        }
+    }
+}

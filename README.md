@@ -6,7 +6,7 @@ Created with **React.js, SCSS, Flexbox**.
 </br>
 Used **BEM** methodology.
 </br>
-Implemented **Routing** in SPA.
+Implemented **Routing** in SPA, **react-slick**, **Moment.js**.
 
 [View demo](#).
 

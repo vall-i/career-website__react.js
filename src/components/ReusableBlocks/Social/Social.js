@@ -6,36 +6,36 @@ import './Social.scss';
 const currentDate = moment().format('DD.MM.YY');
 const social = () => {
   return (
-    <div className='Social'>
+    <div className='social'>
       <span>{currentDate}</span>
-      <div className='Social__wrap'>
+      <div className='social__wrap'>
         <a href='#'>
-          <span className='Social__box Social__box--color1'>
+          <span className='social__box social__box--color1'>
             <i className='fas fa-link'></i>
           </span>
         </a>
         <a href='#'>
-          <span className='Social__box Social__box--color2'>
-            <i class='fas fa-envelope'></i>
+          <span className='social__box social__box--color2'>
+            <i className='fas fa-envelope'></i>
           </span>
         </a>
         <a href='#'>
-          <span className='Social__box Social__box--color3'>
+          <span className='social__box social__box--color3'>
             <i className='fab fa-twitter'></i>
           </span>
         </a>
         <a href='#'>
-          <span className='Social__box Social__box--color4'>
+          <span className='social__box social__box--color4'>
             <i className='fab fa-whatsapp'></i>
           </span>
         </a>
         <a href='#'>
-          <span className='Social__box Social__box--color5'>
+          <span className='social__box social__box--color5'>
             <i className='fab fa-linkedin-in'></i>
           </span>
         </a>
         <a href='#'>
-          <span className='Social__box Social__box--color6'>
+          <span className='social__box social__box--color6'>
             <i className='fab fa-facebook-f'></i>
           </span>
         </a>

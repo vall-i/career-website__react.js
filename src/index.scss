@@ -31,6 +31,7 @@
 }
 
 html {
+  box-sizing: border-box;
   font-size: 62.5%;
 }
 
@@ -42,9 +43,7 @@ body {
   font-weight: 400;
   color: var(--color-primary-black);
   direction: rtl;
-  box-sizing: border-box;
 }
-
 
 .align-center {
   text-align: center;

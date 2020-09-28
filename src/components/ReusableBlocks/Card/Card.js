@@ -7,10 +7,10 @@ import './Card.scss';
 const card = props => {
   return (
     <div className='card'>
-      <img src={props.photo} className='card__photo' alt={props.label} />
+      <img src={props.photo} className='card__photo' alt={props.title} />
       <div className='card__content'>
-        <h3 className='card__heading'>{props.label}</h3>
-        <p className='card__text'>{props.text}</p>
+        <h3 className='card__heading'>{props.title}</h3>
+        <p className='card__text'>{props.description}</p>
       </div>
       <div className='card__box'>
         {props.date ? (

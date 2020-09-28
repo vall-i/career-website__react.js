@@ -20,7 +20,7 @@ const officeView = () => {
       <h2 className='office-view__title'>ביקור במשרד</h2>
       <SliderSlick {...settings}>
         {officeList.map(item => (
-          <div>
+          <div key={item} >
             <img src={item} alt={item} />
           </div>
         ))}

@@ -12,7 +12,7 @@ const employees = () => {
       <h2 className='employees__title'>אנשי השבוע של הייטקיסט</h2>
       <div className='employees__wrap'>
         {employeeList.map(employee => (
-          <div className='employees__wrap-inner'>
+          <div className='employees__wrap-inner' key={employee.id}>
             <PersonCard
               name={employee.name}
               text={employee.text}

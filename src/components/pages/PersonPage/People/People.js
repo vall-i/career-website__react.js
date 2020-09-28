@@ -12,6 +12,7 @@ const people = () => {
       <div className='people__wrap'>
         {pesronList.map(person => (
           <PersonCard
+            key={person.id}
             photo={person.photo}
             text={person.text}
             name={person.name}

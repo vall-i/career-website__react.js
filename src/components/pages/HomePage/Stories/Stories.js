@@ -13,7 +13,8 @@ const stories = () => {
       <div className='stories__wrap'>
         {storyList.map(story => (
           <StoryCard
-            label={story.label}
+            key={story.id}
+            title={story.title}
             text={story.text}
             image={story.image}
             caption='קריאה'
@@ -22,7 +23,7 @@ const stories = () => {
           />
         ))}
       </div>
-      <div class='align-center'>
+      <div className='align-center'>
         <Button btnModifier='btn--gray'>הצג עוד</Button>
       </div>
     </section>

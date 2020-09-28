@@ -15,9 +15,9 @@ class Layout extends Component {
     window.addEventListener('scroll', this.onScrollHandler);
   }
 
-  // componentWillUnmount() {
-  //   window.removeEventListener('scroll', this.onScrollHandler);
-  // }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScrollHandler);
+  }
 
   onScrollHandler = () => {
     if (!this.state.hasScrolled && window.pageYOffset > 400) {
@@ -33,7 +33,7 @@ class Layout extends Component {
 
   render() {
     return (
-      <div className='Layout'>
+      <div className='layout'>
         <Header />
         <main>{this.props.children}</main>
         <Footer />

@@ -6,7 +6,7 @@ const scrollUp = props => {
   return (
     <div className='scroll-up' onClick={props.clicked}>
       <span>
-        <i class='fas fa-chevron-up'></i>
+        <i className='fas fa-chevron-up'></i>
       </span>
     </div>
   );

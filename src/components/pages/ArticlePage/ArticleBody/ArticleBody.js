@@ -9,7 +9,7 @@ const articleBody = () => {
   return (
     <div className='article-body'>
       {articleList_2.map(article => (
-        <ArticleCard title={article.title} text={article.text} photo={article.photo} />
+        <ArticleCard key={article.id} title={article.title} text={article.text} photo={article.photo} />
       ))}
     </div>
   );

@@ -11,7 +11,7 @@ const profileCard = props => {
         <img
           className='profile-card__photo'
           src={props.photo}
-          alt='Profile photo'
+          alt='Employee'
         />
       </div>
       <div className='profile-card__box-content'>

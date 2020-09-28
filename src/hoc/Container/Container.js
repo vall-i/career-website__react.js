@@ -4,7 +4,7 @@ import './Container.scss';
 
 const container = props => {
     return (
-        <div className='Container'>{props.children}</div> 
+        <div className='container'>{props.children}</div> 
     );
 };
 

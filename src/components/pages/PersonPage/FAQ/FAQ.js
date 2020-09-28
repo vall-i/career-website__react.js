@@ -9,7 +9,7 @@ const faq = props => {
   return (
     <div className='faq'>
       {faqList.map(faq => (
-        <ArticleCard title={faq.title} text={faq.text} photo={faq.photo} />
+        <ArticleCard key={faq.id} title={faq.title} text={faq.text} photo={faq.photo} />
       ))}
     </div>
   );

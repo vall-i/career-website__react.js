@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Route, Switch, Redirect } from 'react-router-dom';
 
 import Layout from './hoc/Layout/Layout';
 import PersonPage from './components/pages/PersonPage/PersonPage';
@@ -11,9 +11,12 @@ import './App.scss';
 const App = () => {
   return (
       <Layout>
-        <Route path='/' exact component={HomePage} />
-        <Route path='/person' component={PersonPage} />
-        <Route path='/article' component={ArticlePage} />
+        <Switch>
+          <Route path='/person' component={PersonPage} />
+          <Route path='/article' component={ArticlePage} />
+          <Route path='/' exact component={HomePage} />
+          <Redirect to='/'/>
+        </Switch>
       </Layout>
   );
 }

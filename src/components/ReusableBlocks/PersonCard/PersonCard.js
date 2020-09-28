@@ -9,7 +9,7 @@ const personCard = props => {
         <img
           src={props.photo}
           className='person-card__photo'
-          alt='Employee photo'
+          alt='Employee'
         />
       </div>
       <div className='person-card__content'>

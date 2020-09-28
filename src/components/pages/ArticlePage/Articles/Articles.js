@@ -12,9 +12,10 @@ const articles = () => {
       <div className='articles__wrap'>
         {articleList_1.map(article => (
           <Card
+            key={article.id}
             photo={article.photo}
-            label={article.label}
-            text={article.text}
+            title={article.title}
+            description={article.description}
             caption='קריאה'
           />
         ))}

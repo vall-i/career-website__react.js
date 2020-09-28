@@ -11,39 +11,39 @@ import './Footer.scss';
 
 const footer = props => {
   return (
-    <footer className='Footer'>
-      <div className='Footer__main'>
+    <footer className='footer'>
+      <div className='footer__main'>
         <Logo styled='logo--large' />
-        <nav className='Footer__navigation'>
-          <NavLink to='#' activeClassName='clicked'>
+        <nav className='footer__navigation'>
+          <NavLink to='#' active='clicked'>
             עמוד ראשי
           </NavLink>
-          <NavLink to='#' activeClassName='clicked'>
+          <NavLink to='#' active='clicked'>
             הצטרפות מעסיקים
           </NavLink>
-          <NavLink to='#' activeClassName='clicked'>
+          <NavLink to='#' active='clicked'>
             תנאי שימוש
           </NavLink>
-          <NavLink to='#' activeClassName='clicked'>
+          <NavLink to='#' active='clicked'>
             מדיניות פרטיות
           </NavLink>
-          <NavLink to='#' activeClassName='clicked'>
+          <NavLink to='#' active='clicked'>
             צור קשר
           </NavLink>
         </nav>
       </div>
-      <div className='Footer__bottom'>
+      <div className='footer__bottom'>
         <Container>
-          <div className='Footer__bottom-inner'>
+          <div className='footer__bottom-inner'>
             <img
               src={FooterImage}
-              className='Footer__image'
+              className='footer__image'
               alt='Robot'
             />
-            <div className='Footer__copyright'>
+            <div className='footer__copyright'>
               <span>כול הזכויות שמורות &copy; 2019</span>
             </div>
-            <div className='Footer__powered'>
+            <div className='footer__powered'>
               <img src={LogoCareebiz} alt='Careebiz logo' />
               <span>Powered by</span>
             </div>

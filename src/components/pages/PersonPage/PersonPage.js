@@ -6,7 +6,7 @@ import BoxWrapCenter from '../../ReusableBlocks/BoxWrapCenter/BoxWrapCenter';
 import People from './People/People';
 import FAQ from './FAQ/FAQ';
 import Social from '../../ReusableBlocks/Social/Social';
-import CardsBlock from './CardsBlock/CardsBlock';
+import CardsBlock from '../../ReusableBlocks/CardsBlock/CardsBlock';
 
 import photo from '../../../assets/img/employee-1.jpg';
 

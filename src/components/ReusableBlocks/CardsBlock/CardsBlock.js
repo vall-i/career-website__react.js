@@ -1,8 +1,8 @@
 import React from 'react';
 
-import { companyList } from '../../../../shared';
-import Card from '../../../ReusableBlocks/Card/Card';
-import Button from '../../../UI/Button/Button';
+import { companyList } from '../../../shared';
+import Card from '../Card/Card';
+import Button from '../../UI/Button/Button';
 
 import './CardsBlock.scss';
 
@@ -13,17 +13,16 @@ const cardsBlock = () => {
       <div className='cards-block__wrap'>
         {companyList.map(item => (
           <Card
-            label={item.label}
-            text={item.text}
+            key={item.id}
+            title={item.title}
+            description={item.description}
             photo={item.photo}
             caption='עוד עלינו'
           />
         ))}
       </div>
       <div className='align-center'>
-        <div className='align-center'>
           <Button btnModifier='btn--gray'>הצג עוד</Button>
-        </div>
       </div>
     </section>
   );

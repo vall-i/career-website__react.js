@@ -13,15 +13,16 @@ const positions = () => {
       <div className='positions__wrap'>
         {positionList.map(position => (
           <Card
-            label={position.label}
-            text={position.text}
+            key={position.id}
+            title={position.title}
+            description={position.description}
             photo={position.photo}
             date={position.date}
             caption='קריאה'
           />
         ))}
       </div>
-      <div class='align-center'>
+      <div className='align-center'>
         <Button btnModifier='btn--gray'>הצג עוד</Button>
       </div>
     </section>

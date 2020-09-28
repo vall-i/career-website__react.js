@@ -17,6 +17,7 @@ const overview = props => {
         <div className='overview__wrap-profile-card'>
           {pesronList.slice(0, 3).map(person => (
             <PersonCard
+              key={person.id}
               name={person.name}
               text={person.text}
               photo={person.photo}
@@ -30,7 +31,7 @@ const overview = props => {
           text='לורם איפסום דולור סיט אמט, קולהע צופעט למרקוח איבן איף, ברומץ כלרשט מיחוצים. קלאצי להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורךגולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט. הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק.'
         />
       </div>
-      <div class='align-center'>
+      <div className='align-center'>
         <Button btnModifier='btn--gray'>הצג עוד</Button>
       </div>
     </section>

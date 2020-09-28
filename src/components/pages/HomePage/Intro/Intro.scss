@@ -4,9 +4,9 @@
     height: 42.8rem;
     margin-bottom: 10rem;
     padding: 0 1rem;
-    background-color: #211F1B;
-    // background-image: url('../../..//assets/img/intro-bg-lg.jpg') no-repeat;
-    // background-size: cover;
+    // background-color: #211F1B;
+    background: url('../../../../assets/img/intro-bg-lg.jpg') top no-repeat;
+    background-size: cover;
 
     &__inner {
         width: 100%;
